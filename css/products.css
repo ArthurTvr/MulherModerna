@@ -1,0 +1,69 @@
+#header-navbar a:nth-child(2){
+    background-color: #df063f;
+    color: white;
+}
+#nav-filter{
+    font-size: 15px;
+}
+
+.filter{
+    font-size: 20px;
+    text-align: center;
+}
+
+.card-container{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    margin: 20px;
+    min-width: 400px;
+    justify-content: center;
+   
+}
+
+.product-section{
+    display: flex; 
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card-img{
+    height: 240px;
+    text-align: center;
+}
+
+.card-img img{
+    max-height: 100%;
+    max-width: 100%;
+}
+
+#name{
+    font-size: 30px;
+}
+#colection{
+    font-size: 15px;
+}
+#price{
+    font-size: 20px;
+}
+
+.card-container p {
+    text-align: center;
+    color: black;
+}
+.buy-button{
+    width: 100%;
+    background-color: #df063f;
+    padding: 10px 0;
+    color: white !important; /* MUDAR DEPOIS*/
+    transition: 0.2s;
+}
+
+.card-container:hover .buy-button{
+    background-color: #d8436b;
+}
+.card-info{
+    margin: 10px;
+    font-weight: 900;
+}
